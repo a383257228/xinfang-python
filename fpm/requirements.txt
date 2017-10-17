@@ -1,0 +1,5 @@
+1 python version 2.7.11
+2 下载一个Anaconda2 就不用一个一个导入了
+3 db2 数据库
+创建fpm表：问题类别与处理方式表 CREATE table DATAPREDICT_FPM_QD_INFO( oid char(20) ,ISSUE_TYPE_CODE varchar(64),ISSUE_TYPE_NAME varchar(128),DEAL_TYPE_CODE varchar(64),DEAL_TYPE_NAME varchar(128),SUPPORT integer, regin_name varchar(128), regin_code varchar(64),Petition_Date_Flag varchar(64),CREATE_DATE timestamp,CREATOR_NAME varchar(20),CREATOR_ID varchar(20),MODIFY_DATE timestamp,MODIFY_NAME varchar(20),MODIFY_ID varchar(20))
+           问题类别与行政级别表 CREATE table DATAPREDICT_FPM_QL_INFO( oid char(20) ,ISSUE_TYPE_CODE varchar(64),ISSUE_TYPE_NAME varchar(128),OBJECT_CLASS_CODE varchar(64),OBJECT_CLASS_NAME varchar(128),SUPPORT integer, regin_name varchar(128), regin_code varchar(64),Petition_Date_Flag varchar(64),CREATE_DATE timestamp,CREATOR_NAME varchar(20),CREATOR_ID varchar(20),MODIFY_DATE timestamp,MODIFY_NAME varchar(20),MODIFY_ID varchar(20))

@@ -1,0 +1,10 @@
+fpm文件下代码功能：
+     a.问题类别与处理方式关联分析并分区
+     b.问题类别与行政级别关联分析并分区
+1 connectionDB2.py文件   连接数据库以及读取配置文件
+2 fp_growth.py文件 fpgrowth算法包， 由于需求，把算法排序功能处理了
+3 fpConf.ini 配置文件
+4 main.py 主函数
+5 partitionAnalysisQD.py 问题类别与处理方式关联分析并分区
+6 partitionAnalysisQL.py 题类别与行政级别关联分析并分区
+7 pChange.py 问题类别变化情况
